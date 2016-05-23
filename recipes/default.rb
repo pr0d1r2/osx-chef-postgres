@@ -28,7 +28,7 @@ end
   end
 end
 
-package "homebrew/postgres" do
+package 'postgres' do
   action [:install, :upgrade]
 end
 
